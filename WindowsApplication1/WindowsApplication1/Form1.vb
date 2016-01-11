@@ -9,6 +9,13 @@ Public Class Form1
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        MsgBox("Done !")
+
+        If TextBox1.Text <> "" Then
+            MsgBox(TextBox1.Text)
+        Else
+            MsgBox("Empty !")
+        End If
+
+
     End Sub
 End Class
