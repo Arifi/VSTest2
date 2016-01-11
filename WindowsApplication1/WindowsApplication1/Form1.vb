@@ -1,6 +1,10 @@
-﻿Public Class Form1
+﻿
+
+Public Class Form1
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        MsgBox("Hello Git !")
+
+        ClassLibrary1.Class1.Msg("Hello Git !")
+
     End Sub
 End Class
