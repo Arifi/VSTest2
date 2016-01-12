@@ -12,4 +12,16 @@ Public Class LoginDlg
         Me.Close()
     End Sub
 
+
+    ReadOnly Property Username As String
+        Get
+
+            Return TB_Username.Text
+        End Get
+    End Property
+    ReadOnly Property Password As String
+        Get
+            Return TB_password.Text
+        End Get
+    End Property
 End Class
