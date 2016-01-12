@@ -10,7 +10,7 @@ Public Class Form1
 
         If LoginDlg.ShowDialog() = Windows.Forms.DialogResult.OK Then
 
-            If LoginDlg.Password = "123" Then
+            If LoginDlg.Password = "password" Then
                 username = LoginDlg.Username
                 MsgBox("Welcom", MsgBoxStyle.Information)
             Else
