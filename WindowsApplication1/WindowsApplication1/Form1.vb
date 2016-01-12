@@ -16,7 +16,7 @@ Public Class Form1
         If TextBox1.Text <> "" Then
             MsgBox(TextBox1.Text)
         Else
-            MsgBox("Empty !")
+            MsgBox("Nothing to show !")
         End If
 
 
