@@ -2,6 +2,9 @@
 
 Public Class Form1
 
+
+    Protected Property username As String
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
 
@@ -22,7 +25,7 @@ Public Class Form1
         If TextBox1.Text <> "" Then
             MsgBox(TextBox1.Text)
         Else
-            MsgBox("Empty !")
+            MsgBox("Nothing to show !")
         End If
 
 
