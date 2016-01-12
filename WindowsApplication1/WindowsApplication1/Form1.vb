@@ -10,11 +10,13 @@ Public Class Form1
 
         If LoginDlg.ShowDialog() = Windows.Forms.DialogResult.OK Then
 
-
-
+            If LoginDlg.Password = "123" Then
+                username = LoginDlg.Username
+                MsgBox("Welcom", MsgBoxStyle.Information)
+            Else
+                MsgBox("Wrong password", MsgBoxStyle.Exclamation)
+            End If
         End If
-
-
 
         'ClassLibrary1.Class1.Msg("Hello Git !")
 
